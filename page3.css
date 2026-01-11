@@ -1,0 +1,129 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(#b85ef0, #b2438b, #2f0c4d);
+    background-attachment: fixed;
+}
+
+.page {
+    width: 430px;
+    margin: auto;
+    background-image: linear-gradient(#F0B35E, #B28343, #BB4ABD);
+    min-height: 100vh;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.header {
+    position: relative;
+    border-bottom: 4px solid #74557e;
+}
+
+.header-img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+}
+
+.header-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2); 
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #FF0066;
+    border-radius: 5px;
+}
+
+nav {
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #f0c0ff;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+h1, h2 {
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 {
+    font-size: 18px;
+    margin-left: 10px;
+    background: linear-gradient(180deg, #FF0066 0%, #f4a719 19%, #FF0066 46%, #7d3ff9 72%, #ffffff 96%);
+}
+
+h2 {
+    font-size: 20px;
+    background: linear-gradient(90deg, #589F62 0%, #59B04A 16%, #B0964A 38%, #6E6E6E 55%, #38567A 71%, #1E6DD4 100%);
+    padding: 5px 10px;
+}
+
+.logo {
+    width: 100%;
+    display: block;
+}
+
+.pink {
+    color: #FF0066;
+    font-weight: bold;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.left { width: 55%; }
+.left ul {
+    color: #4a0e4e;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.right { width: 40%; }
+.right img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #74557e;
+}
+
+.textblock {
+    padding: 15px;
+    color: #bdfffa;
+    font-weight: bold;
+}
+
+.footer {
+    background: linear-gradient(to right, #FF0066, #f4a725, #7d3ff9, #ffffff);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
