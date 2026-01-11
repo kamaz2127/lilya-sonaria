@@ -1,0 +1,140 @@
+/* Загальні налаштування для всього сайту */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(#b85ef0, #b2438b, #2f0c4d);
+    background-attachment: fixed; /* Щоб фон не переривався при скролі */
+}
+
+/* Контейнер сторінки (мобільний формат, як ти і робив) */
+.page {
+    width: 430px;
+    margin: auto;
+    background-image: linear-gradient(#F0B35E, #B28343, #BB4ABD);
+    min-height: 100vh;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* Шапка сайту */
+.header {
+    position: relative;
+    border-bottom: 4px solid #74557e;
+    overflow: hidden;
+}
+
+.header-img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+}
+
+.header-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2); /* Легке затемнення, щоб текст краще читали */
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #FF0066;
+    border-radius: 5px;
+}
+
+/* Навігація */
+nav {
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #f0c0ff;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 5px #BB4ABD;
+}
+
+/* Заголовки з градієнтним текстом */
+h1, h2 {
+    margin: 5px 0;
+    font-weight: bold;
+    background: linear-gradient(
+        180deg,
+        #FF0066 0%,
+        #f4a719 19%,
+        #FF0066 46%,
+        #7d3ff9 72%,
+        #ffffff 96%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 { font-size: 18px; margin-left: 10px; }
+h2 { font-size: 22px; padding: 0 10px; }
+
+/* Основний контент */
+.logo {
+    width: 100%;
+    display: block;
+}
+
+.pink {
+    color: #FF0066;
+    font-weight: bold;
+    padding: 15px;
+    margin: 0;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.left { width: 60%; }
+.left ul {
+    color: #4a0e4e;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.right { width: 35%; }
+.right img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #74557e;
+}
+
+.textblock {
+    padding: 15px;
+    color: #bdfffa;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+/* Підвал */
+.footer {
+    background: linear-gradient(to right, #FF0066, #f4a725, #FF0066, #7d3ff9, #ffffff);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
